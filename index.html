@@ -3,16 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bio</title>
+    <meta name="author" content="ShivaRamesh">
+    <title>Your Name - Data Engineer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 2rem;
+        }
+        .intro, .skills, .projects, .personal {
+            margin-bottom: 2rem;
+        }
+        .skills ul, .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .projects li {
+            background: #f1f1f1;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .cta {
+            background-color: #28a745;
+            padding: 1rem;
+            border-radius: 4px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .cta:hover {
+            background-color: #218838;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Bio</h1>
-    <p>Hello! My name is shiva.</p>
-    <p>Here are a few things about me: im a good guy</p>
-    <ul>
-        <li><b>Skills:</b> Python, SQL, Databricks</li>
-        <li><b>Hobbies:</b> Reading, working out, coding</li>
-        <li><b>Goal:</b> To become a successful data engineer!</li>
-    </ul>
+
+    <header>
+        <h1>Welcome to My Bio Page</h1>
+        <p>Your data engineer and tech enthusiast</p>
+    </header>
+
+    <section class="intro">
+        <h2>About Me</h2>
+        <p>Hi, I'm <strong>Shiva</strong>, a passionate Data Engineer with a focus on Databricks, Data Lakes, and optimizing data workflows. I'm always looking for ways to make data more actionable and meaningful for organizations.</p>
+    </section>
+
+    <section class="personal">
+        <h2>Outside of Work</h2>
+        <p>When I’m not working with data, you can find me lifting weights, improving my fitness, and experimenting with new technologies. I'm always excited to learn something new and apply it in creative ways.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Core Skills</h2>
+        <ul>
+            <li><strong>Databricks</strong> - Optimizing data pipelines and creating materialized views</li>
+            <li><strong>SQL</strong> - Writing efficient queries and managing large datasets</li>
+            <li><strong>PowerShell</strong> - Automating administrative tasks and managing AD groups</li>
+            <li><strong>Python</strong> - Developing scripts for data analysis and automation</li>
+            <li><strong>CI/CD</strong> - Experience in Jenkins pipelines and code migrations</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Recent Projects</h2>
+        <ul>
+            <li><strong>Automated CI/CD Pipeline</strong> - Improved deployment efficiency by 30% for a large-scale project</li>
+            <li><strong>Data Lake Optimization</strong> - Reduced query execution time by 40% through materialized views and indexing</li>
+            <li><strong>API Integrations</strong> - Leveraged Postman for smooth API testing and integration into data workflows</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Let's connect and collaborate!</p>
+        <a href="mailto:shivarameshofficial@gmail.com" class="cta">Contact Me</a>
+    </footer>
+
 </body>
 </html>
